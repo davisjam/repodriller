@@ -158,6 +158,17 @@ public class RepositoryMining {
 	}
 
 	/**
+	 * TODO
+	 *
+	 * @param willConflict
+	 * @return
+	 */
+	public RepositoryMining threadsConflict(boolean willConflict) {
+		/* TODO */
+		return this;
+	}
+
+	/**
 	 * The big kahuna.
 	 * Go through all the repos in turn.
 	 * Retrieve the commits associated with each repo.
