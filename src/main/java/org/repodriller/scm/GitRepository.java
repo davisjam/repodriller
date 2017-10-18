@@ -200,6 +200,14 @@ public class GitRepository implements SCM {
 		}
 	}
 
+	/**
+	 * Return all commits, most recent to oldest.
+	 *
+	 * @param git Open JGit instance
+	 * @return All commits, most recent to oldest.
+	 * @throws GitAPIException
+	 * @throws IOException
+	 */
 	private List<ChangeSet> getAllCommits(Git git) throws GitAPIException, IOException {
 		List<ChangeSet> allCs = new ArrayList<>();
 
